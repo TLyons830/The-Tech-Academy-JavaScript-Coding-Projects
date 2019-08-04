@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+    font-size: 75px;
+    color: darkred;
+}
+
+h2 {
+  font-size: 25px;
+  color: darkblue;
+}
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 350px;
+}
+
+#frmMenu {
+  text-align: center;
+}
+
+#btnOrder {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+#btnOrder:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+/*Receipt Style*/
+
+#cart {
+  opacity: 0;
+	margin: 5px auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+	border: 2px solid green;
+	border-radius: 5px;
+}
+
+#title1 {
+	color:green;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+#title2 {
+	color:green;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+#showText1 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding-top: 3px;
+	width: 250px;
+}
+
+#showText2 {
+	font-size: 13px;
+	flex: 1 250px;
+	padding-top: 15px;
+	width: 250px;
+}
+
+#totalPrice1 {
+	color:green;
+	flex: 1 250px;
+	height: 50px;
+	width: 250px;
+	border-radius: 5px;
+}
+
+#totalPrice2 {
+  flex: 1 250px;
+  font-size: 22px;
+	font-weight: bold;
+	padding: 20px 0 10px 10px;
+	width: 250px;
+}
