@@ -107,7 +107,7 @@ function getCheese(runningTotal,text1,text2) {
 		if (cheeseArray[j].checked) {
 			selectedCheese = cheeseArray[j].value;
 		}
-		if (selectedCheese === "Extra cheese") {
+		if (selectedCheese === "Extra Cheese") {
 			cheeseTotal = 3;
 		}
 	}
@@ -138,7 +138,7 @@ function getCrust(runningTotal,text1,text2) {
 			selectedCrust = crustArray[j].value;
 			text1 = text1 + selectedCrust + "<br>";
 		}
-		if (selectedCrust === "Cheese Stuffed Crust") {
+		if (selectedCrust === "Stuffed Cheese Crust") {
 			crustTotal = 3;
 		}
 	}
